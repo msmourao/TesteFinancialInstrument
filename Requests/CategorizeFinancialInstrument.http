@@ -1,0 +1,19 @@
+POST https://localhost:7136/api/financialInstrument/categorize
+Content-Type: application/json
+
+{
+  "financialInstruments": [
+    {
+      "marketValue": 1000000000,
+      "type": "string"
+    },
+    {
+      "marketValue": 4000000,
+      "type": "string"
+    },
+    {
+      "marketValue": 500,
+      "type": "string"
+    }
+  ]
+}
